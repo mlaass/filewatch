@@ -1,0 +1,3 @@
+[submodule "extern/efsw"]
+	path = extern/efsw
+	url = git@github.com:SpartanJ/efsw.git
