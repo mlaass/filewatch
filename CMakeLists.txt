@@ -14,7 +14,7 @@ target_include_directories(filewatch
     PUBLIC extern/efsw/include
 )
 
-target_compile_options(filewatch PRIVATE -fexceptions )
+target_compile_options(filewatch PRIVATE -fexceptions -Os )
 
 IF (WIN32)
     target_compile_definitions(filewatch PUBLIC _WIN32_WINNT=1281)

@@ -24,7 +24,7 @@ set(CMAKE_INSTALL_PREFIX ${CMAKE_FIND_ROOT_PATH}/usr CACHE FILEPATH
 
 include(GNUInstallDirs)
 # initialize required linker flags
-set(CMAKE_EXE_LINKER_FLAGS_INIT " -static-libgcc -static-libstdc++ -lsetupapi -lwsock32 ")
+set(CMAKE_EXE_LINKER_FLAGS_INIT "-s -Os -static-libgcc -static-libstdc++ -lsetupapi -lwsock32 ")
 
 
 # end of toolchain file
